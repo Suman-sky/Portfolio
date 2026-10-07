@@ -1,38 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suman's Pro-File</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <link rel="stylesheet" href="style.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CODEXSUMAN - Suman Kumar Dey's portfolio website.">
+  <title>CODEXSUMAN | Suman Kumar Dey</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-
-<header>
-    <h1>Suman's Pro-File</h1>
-</header>
-
-<nav class="nav1">
-    <a href="home.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="service.html">Services</a>
-    <a href="contact.html">Contact</a>
-</nav>
-
-<section class="hero">
-    <h1>Welcome!</h1>
-    <p>This is a simple responsive website made with HTML and CSS.</p>
-    <a href="Experiment.html" class="btn">Learn More</a>
-</section>
-
-<footer>
-    <p>&copy; 2026 My Website. All rights reserved.</p>
-</footer>
-    <nav class="nav2">
-      <a href="https://x.com/SumanGaming20"><i class="fa-brands fa-x-twitter"></i></a>
-      <a href="https://www.linkedin.com/in/suman-kumar-dey-510869419?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class="fa-brands fa-linkedin"></i></a>
-      <a href="#"><i class="fa-solid fa-headset"></i></a>
+<body id="top">
+  <header class="site-header">
+    <a class="brand" href="index.html">CODEXSUMAN</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="navbar" id="navbar">
+      <a href="index.html">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
     </nav>
+  </header>
+
+  <main>
+    <section class="hero section-dark">
+      <div class="hero-content">
+        <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+        <h1>Hi, I'm Suman Kumar Dey and I'm a <span id="roleText">Web developer</span></h1>
+        <p class="hero-description">I build modern, responsive and creative digital experiences with code and curiosity.</p>
+        <div class="hero-actions">
+          <a class="primary-btn" href="#projects">View Projects</a>
+          <a class="secondary-btn" href="#contact">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Portfolio image slideshow">
+        <div class="image-frame">
+          <img id="heroImage" src="https://picsum.photos/seed/codingdesk/900/700" alt="Portfolio showcase image">
+          <div class="image-counter"><span id="imageNumber">01</span> / 03</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">A LITTLE ABOUT ME</p>
+        <h2>Turning ideas into useful digital experiences.</h2>
+      </div>
+      <div class="about-card">
+        <div>
+          <p>I am a developer who enjoys learning, designing interfaces and building things for the web.</p>
+          <p>Replace these placeholder lines with your own introduction, skills, goals and experience later.</p>
+        </div>
+        <a class="about-btn" href="about.html">Learn More</a>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2>Some projects I have built.</h2>
+      </div>
+      <div class="project-grid">
+        <a class="project-card" href="https://example.com/project-one" target="_blank" rel="noopener">
+          <img src="https://picsum.photos/seed/projectone/800/520" alt="Project one preview">
+          <div class="project-info"><span>01</span><h3>Project One</h3><p>A placeholder project preview. Replace this link with your live project.</p></div>
+        </a>
+        <a class="project-card" href="https://example.com/project-two" target="_blank" rel="noopener">
+          <img src="https://picsum.photos/seed/projecttwo/800/520" alt="Project two preview">
+          <div class="project-info"><span>02</span><h3>Project Two</h3><p>A placeholder project preview. Replace this link with your live project.</p></div>
+        </a>
+        <a class="project-card" href="https://example.com/project-three" target="_blank" rel="noopener">
+          <img src="https://picsum.photos/seed/projectthree/800/520" alt="Project three preview">
+          <div class="project-info"><span>03</span><h3>Project Three</h3><p>A placeholder project preview. Replace this link with your live project.</p></div>
+        </a>
+      </div>
+      <div class="all-projects-wrap">
+        <a class="all-projects-btn" href="projects.html">Explore All Projects</a>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-box">
+        <div>
+          <p class="eyebrow">GET IN TOUCH</p>
+          <h2>Have an idea? Let's build something.</h2>
+        </div>
+        <a class="contact-btn" href="mailto:your@email.com">your@email.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-socials">
+      <p>CONNECT</p>
+      <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://x.com/" target="_blank" rel="noopener">X / Twitter</a>
+    </div>
+    <div class="footer-divider"></div>
+    <div class="footer-links">
+      <p>NAVIGATION</p>
+      <a href="index.html">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a class="back-top" href="#top">Back to Top ↑</a>
+    </div>
+    <p class="copyright">© <span id="year"></span> CODEXSUMAN. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
