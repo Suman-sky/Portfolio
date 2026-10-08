@@ -1,8 +1,8 @@
 const roles = ['Web developer', 'Web designer'];
 const images = [
-  {src:'images/Pic.jpg', alt:'My Pic 1'},
-  {src:'images/IMG-20261004-WA0142.jpg', alt:'My Pic 2'},
-  {src:'https://picsum.photos/seed/creativecode/900/700', alt:'Creative coding setup'}
+  {src:'images/Pic.jpg', alt:'My Pic'},
+  {src:'images/IMG-20261004-WA0142.jpg', alt:'Pic on hill'},
+  {src:'20260929_161205.jpg', alt:'Selfie with Sir'}
 ];
 
 const menuToggle = document.getElementById('menuToggle');
