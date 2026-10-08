@@ -2,7 +2,7 @@ const roles = ['Web developer', 'Web designer'];
 const images = [
   {src:'images/Pic.jpg', alt:'My Pic'},
   {src:'images/IMG-20261004-WA0142.jpg', alt:'Pic on hill'},
-  {src:'20260929_161205.jpg', alt:'Selfie with Sir'}
+  {src:'images/20260929_161205.jpg', alt:'Selfie with Sir'}
 ];
 
 const menuToggle = document.getElementById('menuToggle');
