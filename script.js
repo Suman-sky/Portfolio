@@ -1,6 +1,6 @@
 const roles = ['Web developer', 'Web designer'];
 const images = [
-  {src:'https://picsum.photos/seed/codingdesk/900/700', alt:'Coding desk'},
+  {src:'images/Pic.jpg', alt:'My Pic'},
   {src:'https://picsum.photos/seed/webdesign/900/700', alt:'Web design workspace'},
   {src:'https://picsum.photos/seed/creativecode/900/700', alt:'Creative coding setup'}
 ];
