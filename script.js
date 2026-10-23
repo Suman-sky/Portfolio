@@ -1,6 +1,6 @@
 const roles = ['Web developer', 'Web designer'];
 const images = [
-  {src:'', alt:'My Pic 2'},
+  {src:'images/20260204_013628.jpg', alt:'My Pic 2'},
   {src:'images/IMG-20261004-WA0142.jpg', alt:'Pic on hill'},
   {src:'images/Pic.jpg', alt:'My Pic'}
 ];
